@@ -1,0 +1,46 @@
+html {
+  background: url('../img/inqr-bg.jpg') no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+body {
+  display: -ms-flexbox;
+  display: -webkit-box;
+  display: flex;
+  flex-direction: column;
+}
+footer {
+  padding: 14px;
+  color: white;
+}
+.content {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+}
+
+/* Color */
+.green {
+    background: #17b491
+}
+
+/* Flags */
+.flags {
+  border-radius: 4px;
+}
+.flag-link {
+  transition: 0.5s;
+  -webkit-box-shadow: 0 8px 6px -6px rgba(0,0,0,0.6);
+     -moz-box-shadow: 0 8px 6px -6px rgba(0,0,0,0.6);
+          box-shadow: 0 8px 6px -6px rgba(0,0,0,0.6);
+}
+.flag-link:hover {
+  opacity: 0.7;
+  transition: 0.5s;
+  -webkit-box-shadow: 0 8px 6px -6px #17b491;
+     -moz-box-shadow: 0 8px 6px -6px #17b491;
+          box-shadow: 0 8px 6px -6px #17b491;
+}
